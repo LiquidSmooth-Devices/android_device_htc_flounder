@@ -116,7 +116,8 @@ BOARD_SEPOLICY_UNION := \
 	system_server.te \
 	tee.te \
 	te_macros \
-	touch_fusion.te
+	touch_fusion.te \
+	mac_permissions.xml
 
 TARGET_USES_64_BIT_BCMDHD := true
 TARGET_USES_64_BIT_BINDER := true
@@ -143,6 +144,8 @@ endif
 TARGET_RELEASETOOLS_EXTENSIONS := device/htc/flounder
 
 ART_USE_HSPACE_COMPACT=true
+
+BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
