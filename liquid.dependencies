@@ -1,8 +1,8 @@
 [
  {
-   "remote": "gh",
-   "repository":  "SaberMod/kernel_htc_flounder",
+   "remote": "lsd",
+   "repository":  "android_kernel_htc_flounder",
    "target_path": "kernel/htc/flounder",
-   "branch":      "lp5.0"
+   "branch":      "lollipop"
  }
 ]
