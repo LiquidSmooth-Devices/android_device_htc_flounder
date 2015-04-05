@@ -236,6 +236,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.enable_boot_charger_mode=1
 
+# Enable USB OTG settings
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.isUsbOtgEnabled=true 
+
 # Overwrite product specific build properties
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=volantis \
