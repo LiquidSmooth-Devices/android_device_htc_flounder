@@ -4,9 +4,9 @@ TARGET_SCREEN_WIDTH := 1536
 
 # Inherit some common Liquid stuff.
 ifneq ($(FLOUNDER_LTE),1)
-$(call inherit-product, vendor/liquid/config/common_full_tablet_lte.mk)
+$(call inherit-product, vendor/liquid/config/common_tablet_lte.mk)
 else
-$(call inherit-product, vendor/liquid/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/liquid/config/common_tablet_wifionly.mk)
 endif
 
 # Enhanced NFC
