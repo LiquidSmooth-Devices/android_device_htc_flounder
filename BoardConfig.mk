@@ -38,6 +38,9 @@ TARGET_NO_BOOTLOADER := true
 
 TARGET_NO_RADIOIMAGE := true
 
+# Disables SuperSu in Twrp (Fixes build error)
+TW_EXCLUDE_SUPERSU := true
+
 TARGET_BOARD_PLATFORM := tegra132
 TARGET_BOARD_INFO_FILE := device/htc/flounder/board-info.txt
 
